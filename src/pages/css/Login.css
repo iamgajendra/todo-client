@@ -1,0 +1,62 @@
+.login__component {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 60%;
+    height: 60vh;
+    box-shadow: 2px 2px 8px #888888;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.loginComponent_card {
+    margin-left: 30px;
+    width: 100%;
+}
+
+.form-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    border-bottom: 2px solid #EA638C;
+    outline: none;
+    width: 80%;
+    padding: 10px;
+    font-size: medium !important;
+    font-family: 'Aslo', cursive !important;
+    font-style: italic;
+    font-weight: bolder;
+    color: #FFD9DA !important;
+    transition: border-color 0.2s;
+}
+
+::placeholder {
+    font-size: medium;
+    font-family: 'Aslo', cursive;
+    font-style: italic;
+    color: #FFD9DA;
+}
+
+.btn {
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #1B2021;
+    box-shadow: 0px 0px 4px 2px #EA638C;
+    font-size: large;
+    font-family: 'Zen Loop', cursive;
+    font-weight: bolder;
+    color: #EA638C;
+}
+label {
+    font-size: large;
+    font-family: 'Zen Loop', cursive;
+    font-style: italic;
+    font-weight: bolder;
+    color: #EA638C;
+}
