@@ -2,7 +2,7 @@ import axios from "axios";
 import authHeader from "./auth-header";
 
 const user = JSON.parse(localStorage.getItem("user"));
-const API_URL = "http://localhost:5000/api/list/";
+const API_URL = " https://agile-journey-07058.herokuapp.com/api/list/";
 
 const getList = () => {
   return axios.get(API_URL, { headers: authHeader() });

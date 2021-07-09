@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/user/";
+const API_URL = " https://agile-journey-07058.herokuapp.com/api/user/";
 
 const register = (name, email, password) => {
   return axios.post(API_URL + "register", {
